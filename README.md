@@ -1,0 +1,8 @@
+# GeneticAlgo_TSP_MATLAB
+The traveling salesman problem (TSP) is one of the most significant, though very hard, combinatorial optimization problem. It is the fundamental problem in the fields of computer science, engineering, operations research, discrete mathematics, graph theory, and so forth. 
+TSP can be described as the minimization of the total distance traveled by touring all cities exactly once and return to depot city.  The problem: “Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?” 
+Thus, if there are 10 cities to be visited, and because once a city has been visited that city is not eligible to be travelled to again, the size of the search space stands as 10! (3628800) possible permutations. 
+This is the reason to say TSP is NP-hard problem. The search space for Traveling Salesman problem involves every possible permutation of routes that visit each city once. Overall, considering the total size of the search space of TSP, the genetic algorithm serves well in finding a maximal approximation of the problem.  
+
+This project will use to solve the TSP using the Genetic Algorithm. Genetic algorithms are evolutionary techniques used for optimization purposes according to survival of the fittest idea. These methods do not ensure optimal solutions; however, they give good approximation usually in time. 
+The genetic algorithms can give near optimal solutions for NP-hard problems like TSP. The algorithm will be hard coded in Java. Since Java cannot render the solution graphically or visually, MATLAB will be used to gain the near optimal solution visually for the problem.
